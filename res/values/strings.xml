@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, TicTacToe!</string>
     <string name="app_name">TicTacToe</string>
-    <string name="title_activity_start_page">Start_page</string>
     <string name="action_settings">Settings</string>
-	<string name="description">img of start page</string>
-	<string name="description2">logo</string>
-	<string name="description3">a_3</string>
-	<string name="description4">a_4</string>
-	<string name="description5">a_5</string>
-	<string name="description6">a_6</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="radio_s">Small</string>
+    <string name="radio_m">Medium</string>
+    <string name="radio_l">Large</string>
+    <string name="Pizza_size">Pizza Size</string>
+    <string name="Crust_type">Crust Type</string>
+    <string name="type_thin">Thin</string>
+    <string name="type_stuffed">Stuffed</string>
+    <string name="type_pan">Pan</string>
+    <string name="type_deep_dish">Deep Dish</string>
+    <string name="pick_toppings">Pick Toppings</string>
+    <string name="order">Order</string>
+    <string name="ttt"></string>
+    <string name="title_activity_frame_layout">Frame_layout</string>
+    <string name="title_activity_framed">Framed</string>
+    <string name="final_text">Thank you for ordering a </string>
+    <string name="title_activity_start_page">Start_page</string>
+    <string name="description">img of start page</string>
+    <string name="description2">logo</string>
+    <string name="description3">a_3</string>
+    <string name="description4">a_4</string>
+    <string name="description5">a_5</string>
+    <string name="description6">a_6</string>
+    <string name="onePlayer">One player</string>
+    <string name="twoPlayers">Two players</string>
+    <string name="title_activity_main_activity_two_players">MainActivity_twoPlayers</string>
 
 </resources>
