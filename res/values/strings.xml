@@ -29,5 +29,6 @@
     <string name="onePlayer">One player</string>
     <string name="twoPlayers">Two players</string>
     <string name="title_activity_main_activity_two_players">MainActivity_twoPlayers</string>
+    <string name="developer">Developer: Jiaxin Li</string>
 
 </resources>

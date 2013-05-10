@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.a10li;
+package com.final_proj.Li;
 
 public final class R {
     public static final class attr {
@@ -67,6 +67,7 @@ public final class R {
         public static final int description4=0x7f050016;
         public static final int description5=0x7f050017;
         public static final int description6=0x7f050018;
+        public static final int developer=0x7f05001c;
         public static final int final_text=0x7f050011;
         public static final int hello_world=0x7f050002;
         public static final int onePlayer=0x7f050019;

@@ -1,6 +1,8 @@
-package com.example.a10li;
+package com.final_proj.Li;
 
 import java.util.Arrays;
+
+import com.final_proj.Li.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -21,7 +23,7 @@ public class MainActivity_twoPlayers extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_message);
+        setContentView(R.layout.activity_main_activity_two_players);
         init();
         
     }
@@ -80,7 +82,7 @@ public class MainActivity_twoPlayers extends Activity {
         		b.setBackgroundResource(R.drawable.x);
         		arrx[xcount]=Integer.parseInt((String)b.getTag());
         		b.setClickable(false);
-        		tv.setText("Turn : Robot");
+        		tv.setText("Turn : Player 2");
         		count++;
         		xcount++;
         		if(xcount>=3){
@@ -119,7 +121,7 @@ public class MainActivity_twoPlayers extends Activity {
     	finish();
     }
     public void restart(View v){
-    	setContentView(R.layout.activity_display_message);
+    	setContentView(R.layout.activity_main_activity_two_players);
         init();
     } 
     public boolean onCreateOptionsMenu(Menu menu) {
