@@ -24,10 +24,14 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
         public static final int icon=0x7f020001;
         public static final int logo_text=0x7f020002;
-        public static final int o=0x7f020003;
-        public static final int tic_tac_toe=0x7f020004;
-        public static final int x=0x7f020005;
-        public static final int xo=0x7f020006;
+        public static final int male=0x7f020003;
+        public static final int o=0x7f020004;
+        public static final int player1=0x7f020005;
+        public static final int player2=0x7f020006;
+        public static final int robot=0x7f020007;
+        public static final int tic_tac_toe=0x7f020008;
+        public static final int x=0x7f020009;
+        public static final int xo=0x7f02000a;
     }
     public static final class id {
         public static final int action_settings=0x7f08000c;
@@ -67,7 +71,7 @@ public final class R {
         public static final int description4=0x7f050016;
         public static final int description5=0x7f050017;
         public static final int description6=0x7f050018;
-        public static final int developer=0x7f05001c;
+        public static final int developer=0x7f05001b;
         public static final int final_text=0x7f050011;
         public static final int hello_world=0x7f050002;
         public static final int onePlayer=0x7f050019;
@@ -78,7 +82,6 @@ public final class R {
         public static final int radio_s=0x7f050003;
         public static final int title_activity_frame_layout=0x7f05000f;
         public static final int title_activity_framed=0x7f050010;
-        public static final int title_activity_main_activity_two_players=0x7f05001b;
         public static final int title_activity_start_page=0x7f050012;
         public static final int ttt=0x7f05000e;
         public static final int twoPlayers=0x7f05001a;

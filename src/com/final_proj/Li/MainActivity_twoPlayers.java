@@ -79,7 +79,7 @@ public class MainActivity_twoPlayers extends Activity {
         	ImageButton b= (ImageButton) v;
         	TextView tv =(TextView)findViewById(R.id.subtitle);
         	if(count%2==0){
-        		b.setBackgroundResource(R.drawable.x);
+        		b.setBackgroundResource(R.drawable.player2);
         		arrx[xcount]=Integer.parseInt((String)b.getTag());
         		b.setClickable(false);
         		tv.setText("Turn : Player 2");
@@ -98,7 +98,7 @@ public class MainActivity_twoPlayers extends Activity {
         	}
         	else
         	{
-        		b.setBackgroundResource(R.drawable.o);
+        		b.setBackgroundResource(R.drawable.player1);
         		arro[ocount]=Integer.parseInt((String)b.getTag());
         		b.setClickable(false);
         		tv.setText("Turn : Player 1");

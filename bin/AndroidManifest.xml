@@ -22,13 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.final_proj.Li.DisplayMessageActivity" >
+        <activity 
+            android:name="com.final_proj.Li.DisplayMessageActivity"
+            android:label="@string/onePlayer" >
         </activity>
         <activity android:name="com.final_proj.Li.Framed" >
         </activity>
         <activity
             android:name="com.final_proj.Li.MainActivity_twoPlayers"
-            android:label="@string/title_activity_main_activity_two_players" >
+            android:label="@string/twoPlayers" >
         </activity>
     </application>
 

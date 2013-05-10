@@ -31,8 +31,8 @@ public class DisplayMessageActivity extends Activity {
 	int[][] pos7={{1,4},{8,9},{3,5}};
 	int[][] pos8={{7,9},{2,5}};
 	int[][] pos9={{1,5},{3,6},{7,8}};
-	int[] arrx = new int[8];
 	int xcount,ocount;
+	int[] arrx = new int[8];
 	int[] arro = new int[8];
 	int[] arrAll= new int[10];
 	
@@ -49,6 +49,15 @@ public class DisplayMessageActivity extends Activity {
     	count=0;
     	xcount=0;
     	ocount=0;
+    	for(int x=0; x<8; x++)
+    	{
+    		arrx[x]=0;
+    		arro[x]=0;
+    	}
+    	for(int x=0; x<10; x++)
+    	{
+    		arrAll[x]=0;
+    	} 	
     	ImageButton x = (ImageButton) this.findViewById(R.id.btn1);
     	x.setOnClickListener(listener);
     	x = (ImageButton) this.findViewById(R.id.btn2);
@@ -93,55 +102,55 @@ public class DisplayMessageActivity extends Activity {
     public void robot(int x){
     	if(x==1){
     	ImageButton a = (ImageButton) this.findViewById(R.id.btn1);
-    	a.setBackgroundResource(R.drawable.x);
+    	a.setBackgroundResource(R.drawable.robot);
 		a.setClickable(false);
     	}
     	else
     	if(x==2){
 		ImageButton b = (ImageButton) this.findViewById(R.id.btn2);
-    	b.setBackgroundResource(R.drawable.x);
+    	b.setBackgroundResource(R.drawable.robot);
 		b.setClickable(false);
     	}
     	else
 		if(x==3){
 		ImageButton c = (ImageButton) this.findViewById(R.id.btn3);
-    	c.setBackgroundResource(R.drawable.x);
+    	c.setBackgroundResource(R.drawable.robot);
 		c.setClickable(false);
 		}
 		else
 		if(x==4){
 		ImageButton d = (ImageButton) this.findViewById(R.id.btn4);
-    	d.setBackgroundResource(R.drawable.x);
+    	d.setBackgroundResource(R.drawable.robot);
 		d.setClickable(false);
 		}
 		else
 		if(x==5){
 		ImageButton e = (ImageButton) this.findViewById(R.id.btn5);
-    	e.setBackgroundResource(R.drawable.x);
+    	e.setBackgroundResource(R.drawable.robot);
 		e.setClickable(false);
 		}
 		else
 		if(x==6){
 		ImageButton f = (ImageButton) this.findViewById(R.id.btn6);
-    	f.setBackgroundResource(R.drawable.x);
+    	f.setBackgroundResource(R.drawable.robot);
 		f.setClickable(false);
 		}
 		else
 		if(x==7){
 		ImageButton g = (ImageButton) this.findViewById(R.id.btn7);
-    	g.setBackgroundResource(R.drawable.x);
+    	g.setBackgroundResource(R.drawable.robot);
 		g.setClickable(false);
 		}
 		else
 		if(x==8){
 		ImageButton h = (ImageButton) this.findViewById(R.id.btn8);
-    	h.setBackgroundResource(R.drawable.x);
+    	h.setBackgroundResource(R.drawable.robot);
 		h.setClickable(false);
 		}
 		else
 		if(x==9){
 		ImageButton i = (ImageButton) this.findViewById(R.id.btn9);
-    	i.setBackgroundResource(R.drawable.x);
+    	i.setBackgroundResource(R.drawable.robot);
 		i.setClickable(false);
 		}
     }
@@ -154,7 +163,7 @@ public class DisplayMessageActivity extends Activity {
         	{
         		ImageButton b= (ImageButton) v;
         		TextView tv =(TextView)findViewById(R.id.subtitle); 
-        		b.setBackgroundResource(R.drawable.o);
+        		b.setBackgroundResource(R.drawable.male);
         		arro[ocount]=Integer.parseInt((String)b.getTag());
         		b.setClickable(false);
         		tv.setText("Turn : Robot"); 
@@ -173,15 +182,13 @@ public class DisplayMessageActivity extends Activity {
                     		
                     		if(Arrays.toString(arro).contains(String.valueOf(win[i][0]))&&Arrays.toString(arro).contains(String.valueOf(win[i][1]))&&Arrays.toString(arro).contains(String.valueOf(win[i][2])))            			
                     		{            	        				
-                    			tv.setText("Player Wins!");   	
-                    			stop();    
+                    			tv.setText("Player Wins!"); 
                     			go=1;	
                     		}
                     		else
                     			if(Arrays.toString(arrx).contains(String.valueOf(win[i][0]))&&Arrays.toString(arrx).contains(String.valueOf(win[i][1]))&&Arrays.toString(arrx).contains(String.valueOf(win[i][2])))                    		
                     			{                             				
-                    				tv.setText("Robot Wins!");         			             				
-                    				stop();  
+                    				tv.setText("Robot Wins!"); 
                     				go=1;
                     			}                    		                    		                  		
                     	}

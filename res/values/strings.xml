@@ -26,9 +26,8 @@
     <string name="description4">a_4</string>
     <string name="description5">a_5</string>
     <string name="description6">a_6</string>
-    <string name="onePlayer">One player</string>
+    <string name="onePlayer">Single player</string>
     <string name="twoPlayers">Two players</string>
-    <string name="title_activity_main_activity_two_players">MainActivity_twoPlayers</string>
     <string name="developer">Developer: Jiaxin Li</string>
 
 </resources>
